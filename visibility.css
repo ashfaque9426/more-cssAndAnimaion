@@ -1,0 +1,40 @@
+:root {
+    --primary-color: slateblue;
+    --secondary-color: limegreen;
+}
+
+h1 {
+    color: var(--primary-color);
+    color: steelblue;
+}
+
+#heading3 {
+    border: 2px solid var(--primary-color);
+}
+
+p {
+    font-size: 45px;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+#box {
+    width: calc(620px - 10%);
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: var(--secondary-color);
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid purple;
+}
+
+#box-3 {
+    color: peru;
+    /* display: none; */
+    visibility: hidden;
+}
